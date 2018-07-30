@@ -9,3 +9,6 @@ client.on('message', message => {
   message.member.voiceChannel.join();
   }
   });
+  
+
+client.login(process.env.BOT_TOKEN); 
